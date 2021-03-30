@@ -1,0 +1,64 @@
+.hero {
+  height: 100%;
+}
+
+.hero-content-main {
+    height: 90vh;
+    position: relative;
+  .hero-content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    h1 {
+        letter-spacing: 1.5px;
+        line-height: 140%;
+        font-size: 4.5rem;
+    }
+    p {
+        font-size: 1.2rem;
+        color: #8a8a8a;
+    }
+    .hero-button {
+        width: fit-content;
+        margin-top: 2.5rem;
+        padding: 14px 24px;
+        color: #fff;
+        border-radius: 12px;
+        background: linear-gradient(45deg, #d9afd9 0%, #97d9e1 100%);
+        box-shadow: 0 2px 16px #d9afd99d;
+
+        a {
+          text-decoration: none;
+          color: #ffff;
+        }
+    }
+  }
+}
+
+.hero-style {
+  position: absolute;
+  height: 130vh;
+  overflow-y: hidden;
+  z-index: -1;
+  top: -215px;
+  right: -300px;
+
+  .custom-style {
+    height: 1200px;
+    width: 1200px;
+    top: -215px;
+    right: -300px;
+    border: 125px solid #d9afd942;
+    overflow: hidden;
+    border-radius: 50%;
+
+    .back {
+      height: 100%;
+      width: 100%;
+      background-color: #d9afd9;
+      background: linear-gradient(45deg, #d9afd9 0%, #97d9e1 100%);
+    }
+  }
+}

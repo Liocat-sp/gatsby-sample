@@ -1,0 +1,24 @@
+.avatar {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #008b8b;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    line-height: 145%;
+    font-size: 1.1rem;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.square {
+    border-radius: 0;
+}

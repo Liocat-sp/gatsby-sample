@@ -1,0 +1,48 @@
+.contact-main {
+    min-height: 90vh;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    .contact-text {
+        text-align: center;
+        font-size: 3.5rem;
+        line-height: 145%;
+        font-weight: 600;
+        color: #4ab0e1;
+    }
+}
+
+.content-style-1 {
+    z-index: -1;
+    .custom-style {
+      position: absolute;
+      height: 700px;
+      width: 700px;
+      top: -215px;
+      right: -300px;
+      // z-index: -1;
+      border: 125px solid #d9afd9;
+      overflow: hidden;
+      border-radius: 50%;
+    }
+  }
+  
+  .content-style-2 {
+    z-index: -1;
+    max-height: 90vh;
+    overflow-y: hidden;
+    
+    .custom-style {
+      position: absolute;
+      height: 700px;
+      width: 700px;
+      bottom: -215px;
+      left: -300px;
+      // z-index: -1;
+      border: 125px solid #97d9e1;
+      overflow: hidden;
+      border-radius: 50%;
+
+    }
+  }
+  
